@@ -32,15 +32,15 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Ao seguir pelo caminho escolhido, ",
+        enunciado: "Após seguir pelo caminho escolhido, você se depara com um pequeno Pokémon chamado Pidgey, que aparenta ser pacífico. Porém esse Pidgey em específico estava afim de uma batalha. O que você irá fazer?",
         alternativas: [
             {
-                texto: "Esquerda",
-                afirmacao: " "
+                texto: "Batalhar contra o Pidgey",
+                afirmacao: "Você decide encarar o desafio e usa seu inicial na batalha contra um Pidgey selvagem. Depois uma longa batalha contra o monstrinho, você consegue ganhar do Pidgey selvagem"
             },
             {
-                texto: "Direita",
-                afirmacao: "afirmacao"
+                texto: "Tentar fugir",
+                afirmacao: "Com muito medo de perder uma batalha contra um Pidgey selvagem, você decide tentar fugir da batalha. Você até consegue, mas não antes de você e seu Pokemon inicial levarem uma bicadas na cabeça!"
             }
         ]
     },
@@ -60,7 +60,7 @@ const perguntas = [
     {
         enunciado: "Pergunta 5",
         alternativas: [
-                        {
+            {
                 texto: "Esquerda",
                 afirmacao: "Você fica admirado com as diversas criaturas que vivem nesse mundo, tendo um maior desejo de continuar sua aventura por esse vasto mundo!"
             },
