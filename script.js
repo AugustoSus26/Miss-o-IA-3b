@@ -36,7 +36,7 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Esquerda",
-                afirmacao: ""
+                afirmacao: " "
             },
             {
                 texto: "Direita",
@@ -49,7 +49,7 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Esquerda",
-                afirmacao: ""
+                afirmacao: " "
             },
             {
                 texto: "Direita",
@@ -98,8 +98,8 @@ function mostraAlternativas(){
 }
 
 function respostaSelecionada(opcaoSelecionada){
-    const afirmacoes = opcaoSelecionada.afirmacoes;
-    historiaFinal += afirmacoes + " ";
+    const afirmacao = opcaoSelecionada.afirmacao;
+    historiaFinal += afirmacao + " ";
     atual++;
     mostraPergunta();
 }
