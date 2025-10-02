@@ -23,19 +23,25 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Esquerda",
-                afirmacao: ""
+                afirmacao: "Ao se deparar com uma bifurcação, você decide ir pela esquerda ver os Pokémon do campo"
             },
             {
                 texto: "Direita",
-                afirmacao: "afirmacao"
+                afirmacao: "Ao se deparar com uma bifurcação, você decide ir pela direita ver os Pokémon do campo"
             }
         ]
     },
     {
         enunciado: "Pergunta 3",
         alternativas: [
-            "Alternativa 1",
-            "Alternativa 2"
+            {
+                texto: "Esquerda",
+                afirmacao: ""
+            },
+            {
+                texto: "Direita",
+                afirmacao: "afirmacao"
+            }
         ]
     },
     {
