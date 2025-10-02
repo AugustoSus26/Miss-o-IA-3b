@@ -10,19 +10,25 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Pikachu",
-                afirmacao: "afirmacao"
+                afirmacao: "Você escolheu Pikachu como seu inicial"
             },
             {
                 texto: "Eevee",
-                afirmacao: "afirmacao"
+                afirmacao: "Você escolheu Eevee como seu inicial"
             }
         ]
     },
     {
         enunciado: "Ao sair do laboratório e andar por um tempo, você se depara com uma bifurcação que pode levar á 2 lugares diferentes. O caminho da esquerda leva à um grande campo onde tem um forte presença de Pokémon de tipo planta, e o caminho da direita leva à uma praia com vários Pokémon de tipo água. Qual caminho você irá seguir?",
         alternativas: [
-            "Esquerda",
-            "Direita"
+            {
+                texto: "Esquerda",
+                afirmacao: ""
+            },
+            {
+                texto: "Direita",
+                afirmacao: "afirmacao"
+            }
         ]
     },
     {
@@ -81,7 +87,7 @@ function respostaSelecionada(opcaoSelecionada){
 }
 
 function mostraResultado(){
-    caixaPerguntas.textContent = "Depois dessa aventura...";
+    caixaPerguntas.textContent = "Nessa jornada...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
