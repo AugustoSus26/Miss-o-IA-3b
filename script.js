@@ -27,12 +27,12 @@ const perguntas = [
             },
             {
                 texto: "Direita",
-                afirmacao: "Ao se deparar com uma bifurcação, você decide ir pela direita ver os Pokémon do campo"
+                afirmacao: "Ao se deparar com uma bifurcação, você decide ir pela direita ver os Pokémon do praia"
             }
         ]
     },
     {
-        enunciado: "Pergunta 3",
+        enunciado: "Ao seguir pelo caminho escolhido, ",
         alternativas: [
             {
                 texto: "Esquerda",
@@ -47,15 +47,27 @@ const perguntas = [
     {
         enunciado: "Pergunta 4",
         alternativas: [
-            "Alternativa 1",
-            "Alternativa 2"
+            {
+                texto: "Esquerda",
+                afirmacao: ""
+            },
+            {
+                texto: "Direita",
+                afirmacao: "afirmacao"
+            }
         ]
     },
     {
         enunciado: "Pergunta 5",
         alternativas: [
-            "Alternativa 1",
-            "Alternativa 2"
+                        {
+                texto: "Esquerda",
+                afirmacao: "Você fica admirado com as diversas criaturas que vivem nesse mundo, tendo um maior desejo de continuar sua aventura por esse vasto mundo!"
+            },
+            {
+                texto: "Direita",
+                afirmacao: "Você fica admirado com as diversas criaturas que vivem nesse mundo, tendo um maior desejo de continuar sua aventura por esse vasto mundo!"
+            }
         ]
     },
 
@@ -99,3 +111,4 @@ function mostraResultado(){
 }
 
 mostraPergunta();
+
